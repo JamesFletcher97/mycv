@@ -1,0 +1,153 @@
+body {
+  color: #545454;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+hr {
+  border: dotted #dddddd 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+    color: #4ab19a;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #545454;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: #4ab19a;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.8rem;
+  color: #1e836c;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+  color: #4ab19a;
+}
+
+p {
+  line-height: 1.42857143;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+  font-weight: 300;
+  padding-bottom: 350px;
+}
+
+.middle-container {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-icon-computer {
+  width: 30%;
+  float: left;
+  margin: 30px;
+}
+
+.skill-icon-pad {
+  width: 30%;
+  float: right;
+  margin: 30px;
+}
+
+.bottom-container {
+  background-color: #e0ebe8;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 50px 0 20px;
+}
+
+.main-mountain{
+  display: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.header-desc {
+  font-family: 'Montserrat', sans-serif;
+  color: #4ab19a;
+  font-size: 180%;
+  font-weight: 400;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #4ab19a;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3ea08a;
+  text-decoration: none;
+}
+
+.copyright{
+  color: #4ab19a;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.copyright:hover{
+  color: #545454;
+}
